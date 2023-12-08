@@ -44,5 +44,6 @@ public class Actittime {
 		String title=driver.getTitle();
 		String eTitle="actiTIME - Enter Time-Track";
 		Assert.assertEquals(title, eTitle);
-	}
+		driver.quit();	
+		}
 }
